@@ -1,0 +1,80 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(238, 234, 234);
+}
+#div-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#branch{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#div-form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#floatingInput , #floatingSelect , #floatingTextarea{
+    border-style: solid;
+    border-color: black;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-radius: 0%;
+}
+.photo-btn{
+    cursor: pointer;
+    position: relative;
+    padding: 11px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-radius: 0%;
+    border-color: black;
+    border-width: 1px;
+    overflow: hidden;
+}
+.photo-btn input[type="file"]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+/* .btn-regis{
+    align-content: center;
+    padding: 5px 20px;
+}
+.btn-submit{
+    align-items: center;
+} */
+#submit{
+    align-items: center;
+}
+#image{
+    height: 100%;
+    width:55%;
+    margin-top: 40px;
+}
+
+@media (max-width: 360px) {
+    #image{
+        width: 300px;
+    
+}

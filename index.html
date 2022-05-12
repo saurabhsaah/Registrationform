@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row justify-content-evenly" id="main-row">
+            <div class="col-10">
+                <div class="row justify-content-evenly align-item-center" id="div-form">
+                    <div class="col-md-5">
+                        <h2 id="heading">Student Registration Form</h2>
+                        <form action="#">
+                            <div class="form-floating mb-3" >
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
+                                <label for="floatingInput"><i class="bi bi-person-fill"></i> &MediumSpace; Your Name</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Roll Number">
+                                <label for="floatingInput"><i class="bi bi-123"></i> &MediumSpace; Roll Number</label>
+                            </div>
+
+                            <div class="form mb-3">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                <option selected id="branch">Branch</option>
+                                <option value="1">BCA</option>
+                                <option value="2">BBA</option>
+                                <option value="3">B.Tech</option>
+                                </select>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Mobile Number">
+                                <label for="floatingInput"> <i class="bi bi-phone"></i> &MediumSpace; Mobile Number</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Your Email">
+                                <label for="floatingInput"><i class="bi bi-envelope-fill"></i> &MediumSpace; Email</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Address">
+                                <label for="floatingInput"> <i class="bi bi-house-door-fill"></i> &MediumSpace; Address</label>
+                            </div>
+
+                            <div class="row justify-content-evenly mb-3 mt-3">
+                                <div class="col-6 align-self-start">
+                                    <div class="photo-upload">
+                                        <button type="button" class="photo-btn">
+                                            <i class="bi bi-image-fill"></i> &MediumSpace; Upload photo
+                                            <input type="file">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6 align-self-end">
+                                    <div class="photo-upload">
+                                        <button type="button" class="photo-btn" id="btn2">
+                                            <i class="bi bi-pencil-square"></i> &MediumSpace; Upload Signature
+                                            <input type="file">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-floating mt-3 mb-3">
+                                <textarea class="form-control" placeholder="Self Introduction" id="floatingTextarea" style="height: 100px"></textarea>
+                                <label for="floatingTextarea"> <i class="bi bi-person-video"></i> &MediumSpace; Self Introduction</label>
+                            </div>
+                            <input class="btn btn-primary mt-3" type="submit" value="Registered" id="submit">
+                        </form>
+                    </div>
+
+                    <div class="col-md-5 align-self-center" id="image">
+                        <img src="registration1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
