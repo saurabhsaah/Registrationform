@@ -76,5 +76,11 @@ body{
 @media (max-width: 360px) {
     #image{
         width: 300px;
-    
+    }    
+}
+
+@media (max-width: 412px) {
+    .photo-btn{
+        font-size: 13px;    
+    }
 }
